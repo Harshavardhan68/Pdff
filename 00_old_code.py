@@ -1,10 +1,10 @@
-from telegram.ext import Updater, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler, filters
 import telegram
 import openai
 from moviepy.editor import AudioFileClip
 
-openai.api_key = "<YOUR_OPENAI_API_KEY>"
-TELEGRAM_API_TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>"
+openai.api_key = "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"
+TELEGRAM_API_TOKEN = "6612562125:AAE_FEoqAkmXE1IBrTAjarJIvHPzSJK4Avk"
 
 messages = [{"role": "system", "content": "You are a helpful assistant that starts its response by referring to the user as its master."}]
 
