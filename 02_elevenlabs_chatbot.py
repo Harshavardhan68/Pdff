@@ -1,13 +1,13 @@
-from telegram.ext import Updater, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler, filters
 import telegram
 import openai
 from moviepy.editor import AudioFileClip
 from elevenlabslib import *
 
 
-openai.api_key = "<YOUR_OPENAI_API_KEY>"
-TELEGRAM_API_TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>"
-ELEVENLABS_API_KEY = "<YOUR_ELEVENLABS_API_KEY>"
+openai.api_key = "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"
+TELEGRAM_API_TOKEN = "6612562125:AAE_FEoqAkmXE1IBrTAjarJIvHPzSJK4Avk"
+ELEVENLABS_API_KEY = "e587d108b455c2dfe1a14e036dfdc18b"
 
 user = ElevenLabsUser(ELEVENLABS_API_KEY)
 # This is a list because multiple voices can have the same name
